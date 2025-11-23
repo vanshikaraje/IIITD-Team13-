@@ -1,73 +1,54 @@
-# Welcome to your Lovable project
+Medilink — Hyperlocal Healthcare & Instant Medicine Delivery
 
-## Project info
+Medilink is a hyperlocal healthcare delivery and consultation platform designed to solve one of India’s biggest challenges: getting immediate access to medicines and medical help during emergencies. Unlike traditional e-pharmacies that take hours to deliver, Medilink connects users to nearby verified medical stores, enabling 10–20 minute medicine delivery.
+<img width="1888" height="901" alt="Screenshot 2025-11-23 091929" src="https://github.com/user-attachments/assets/941d16f2-5bc4-4623-b810-be81b19982be" />
 
-**URL**: https://lovable.dev/projects/8e597782-3635-479f-b63f-787d8ed53ed3
 
-## How can I edit this code?
+The platform unifies the entire healthcare journey by offering:
 
-There are several ways of editing your application.
+⚕️ Instant medicine delivery from local pharmacies
 
-**Use Lovable**
+📄 Prescription uploads for quick verification
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/8e597782-3635-479f-b63f-787d8ed53ed3) and start prompting.
+💊 Pharmacist-assisted OTC guidance
 
-Changes made via Lovable will be committed automatically to this repo.
+🩺 Doctor teleconsultations (voice/video)
 
-**Use your preferred IDE**
+🏥 Doctor home visits for diagnosis, tests & prescriptions
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Medilink also empowers offline retail pharmacies with digital visibility, order management, inventory tools, and delivery support—helping them compete with large e-pharmacy chains.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+By combining speed, trusted local healthcare, and seamless digital services, Medilink aims to become India’s most reliable, community-driven healthcare access system.
 
-Follow these steps:
+🛠️ Tech Stack
+Frontend
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+Next.js (App Router)
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+React
 
-# Step 3: Install the necessary dependencies.
-npm i
+Tailwind CSS
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+ShadCN UI
 
-**Edit a file directly in GitHub**
+Framer Motion
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Google Maps JavaScript API
 
-**Use GitHub Codespaces**
+Socket.io Client
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Vapi.ai (Doctor voice consultation)
 
-## What technologies are used for this project?
+Backend
 
-This project is built with:
+Node.js / Next.js API Routes
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Socket.io (real-time delivery tracking)
 
-## How can I deploy this project?
+Cloudinary (prescription storage)
 
-Simply open [Lovable](https://lovable.dev/projects/8e597782-3635-479f-b63f-787d8ed53ed3) and click on Share -> Publish.
+PostgreSQL /Supabase 
 
-## Can I connect a custom domain to my Lovable project?
+Supabase Authentication
 
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Google Places API (to locate nearby pharmacies)
